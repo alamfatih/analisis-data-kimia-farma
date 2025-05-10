@@ -3,7 +3,16 @@
 [![Status Proyek](https://img.shields.io/badge/status-selesai-brightgreen)](https://img.shields.io/)
 [![Lisensi](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bahasa](https://img.shields.io/badge/language-PostgreSQL-blue)](https://www.postgresql.org/)
+---
+## 👋 Mari Terhubung!
 
+Tertarik dengan analisis ini atau ingin berkolaborasi lebih lanjut? Jangan ragu untuk menghubungi saya:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nurfatih%20Alam-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nurfatihalam/)
+
+* **LinkedIn:** [Nurfatih Alam](https://www.linkedin.com/in/nurfatihalam/)
+
+---
 ## 🔍 Deskripsi Proyek
 
 Proyek ini menyelami data transaksi penjualan Kimia Farma selama periode 2020 hingga 2023. Tujuan utama adalah untuk mengungkap tren kinerja bisnis melalui analisis mendalam terhadap produk terlaris, performa cabang di berbagai lokasi geografis, serta umpan balik pelanggan melalui rating. Dengan visualisasi data yang sederhana, diharapkan insight yang dihasilkan dapat lebih mudah dipahami dan ditindaklanjuti.
