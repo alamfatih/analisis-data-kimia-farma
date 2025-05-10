@@ -1,6 +1,6 @@
 # Analisis Kinerja Bisnis Kimia Farma Tahun 2020-2023 📊💊
 
-[![Status Proyek](https://img.shields.io/badge/status-arsip-inactive)](https://img.shields.io/)
+[![Status Proyek](https://img.shields.io/badge/status-selesai-brightgreen)](https://img.shields.io/)
 [![Lisensi](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bahasa](https://img.shields.io/badge/language-PostgreSQL-blue)](https://www.postgresql.org/)
 
