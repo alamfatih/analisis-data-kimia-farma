@@ -22,6 +22,66 @@ Proyek ini menyelami data transaksi penjualan Kimia Farma selama periode 2020 hi
 * Data transaksi penjualan lengkap dalam format CSV tidak disertakan dalam repositori ini. Hal ini untuk menjaga privasi dan keamanan data. Data CSV lengkap digunakan dalam proses analisis, tetapi hanya hasil analisis yang relevan dan telah di-agregasi yang ditampilkan di sini.
 * Skrip SQL dalam folder `database/data/` adalah contoh skrip untuk mengimpor sebagian data atau data dummy untuk keperluan pengujian. Data CSV lengkap yang digunakan dalam analisis disimpan secara terpisah dan tidak diunggah ke GitHub.
 
+## 📂 Struktur Proyek
+
+Berikut adalah struktur folder utama dalam repositori ini:
+Tentu, berikut adalah contoh lengkap dari README.md dengan semua elemen yang telah kita diskusikan:
+Markdown
+
+# Analisis Kinerja Bisnis Kimia Farma Tahun 2020-2023 📊💊
+
+[![Status Proyek](https://img.shields.io/badge/status-selesai-brightgreen)](https://img.shields.io/)
+[![Lisensi](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Bahasa](https://img.shields.io/badge/language-PostgreSQL-blue)](https://www.postgresql.org/)
+
+---
+
+## 👋 Mari Terhubung!
+
+Tertarik dengan analisis ini atau ingin berkolaborasi lebih lanjut? Jangan ragu untuk menghubungi saya:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nurfatih%20Alam-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nurfatihalam/)
+
+* **LinkedIn:** [Nurfatih Alam](https://www.linkedin.com/in/nurfatihalam/)
+
+---
+
+## 🔍 Deskripsi Proyek
+
+Proyek ini menyelami data transaksi penjualan Kimia Farma selama periode 2020 hingga 2023. Tujuan utama adalah untuk mengungkap tren kinerja bisnis melalui analisis mendalam terhadap produk terlaris, performa cabang di berbagai lokasi geografis, serta umpan balik pelanggan melalui rating. Dengan visualisasi data yang sederhana, diharapkan *insight* yang dihasilkan dapat lebih mudah dipahami dan ditindaklanjuti.
+
+**Catatan Penting:**
+
+* Data transaksi penjualan lengkap dalam format CSV tidak disertakan dalam repositori ini. Hal ini untuk menjaga privasi dan keamanan data. Data CSV lengkap digunakan dalam proses analisis, tetapi hanya hasil analisis yang relevan dan telah di-agregasi yang ditampilkan di sini.
+* Skrip SQL dalam folder `database/data/` adalah contoh skrip untuk mengimpor sebagian data atau data *dummy* untuk keperluan pengujian. Data CSV lengkap yang digunakan dalam analisis disimpan secara terpisah dan tidak diunggah ke GitHub.
+
+## 📂 Struktur Proyek
+
+Berikut adalah struktur folder utama dalam repositori ini:
+
+```
+analisis-data-kimia-farma/
+├── database/
+│   ├── schema/
+│   │   ├── create-kf-final-transaction-table.sql
+│   │   ├── create-kf-inventory-table.sql
+│   │   ├── create-kf-kantor-cabang-table.sql
+│   │   ├── create-kf-product-table.sql
+│   │   └── create-analysis-performance-table.sql
+│   ├── data/
+│   │   ├── insert-kf-final-transaction-data.sql
+│   │   ├── insert-kf-inventory-data.sql
+│   │   ├── insert-kf-kantor-cabang-data.sql
+│   │   └── insert-kf-product-data.sql
+│   └── queries/
+│       ├── top-5-customers-by-transaction-value-2020-2023.sql
+│       ├── top-5-products-by-transaction-value-2020-2023.sql
+│       ├── branch-performance-analysis-2020-2023.sql
+│       ├── customer-segmentation-queries.sql
+│       └── ... (query analisis lainnya)
+└── README.md
+```
+
 ## 📈 Hasil Analisis Utama
 
 Berikut adalah beberapa temuan kunci dari analisis data penjualan Kimia Farma:
