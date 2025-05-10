@@ -17,6 +17,11 @@ Tertarik dengan analisis ini atau ingin berkolaborasi lebih lanjut? Jangan ragu 
 
 Proyek ini menyelami data transaksi penjualan Kimia Farma selama periode 2020 hingga 2023. Tujuan utama adalah untuk mengungkap tren kinerja bisnis melalui analisis mendalam terhadap produk terlaris, performa cabang di berbagai lokasi geografis, serta umpan balik pelanggan melalui rating. Dengan visualisasi data yang sederhana, diharapkan insight yang dihasilkan dapat lebih mudah dipahami dan ditindaklanjuti.
 
+**Catatan Penting:**
+
+* Data transaksi penjualan lengkap dalam format CSV tidak disertakan dalam repositori ini. Hal ini untuk menjaga privasi dan keamanan data. Data CSV lengkap digunakan dalam proses analisis, tetapi hanya hasil analisis yang relevan dan telah di-agregasi yang ditampilkan di sini.
+* Skrip SQL dalam folder `database/data/` adalah contoh skrip untuk mengimpor sebagian data atau data dummy untuk keperluan pengujian. Data CSV lengkap yang digunakan dalam analisis disimpan secara terpisah dan tidak diunggah ke GitHub.
+
 ## 📈 Hasil Analisis Utama
 
 Berikut adalah beberapa temuan kunci dari analisis data penjualan Kimia Farma:
